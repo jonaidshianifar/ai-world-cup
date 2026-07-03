@@ -1,0 +1,14 @@
+{
+  "errors": {
+    "games": "worldcup26 request failed for https://worldcup26.ir/get/games: Server error '502 Bad Gateway' for url 'https://worldcup26.ir/get/games'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",
+    "groups": "worldcup26 request failed for https://worldcup26.ir/get/groups: Server error '502 Bad Gateway' for url 'https://worldcup26.ir/get/groups'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",
+    "stadiums": "worldcup26 request failed for https://worldcup26.ir/get/stadiums: Server error '502 Bad Gateway' for url 'https://worldcup26.ir/get/stadiums'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",
+    "teams": "worldcup26 request failed for https://worldcup26.ir/get/teams: Server error '502 Bad Gateway' for url 'https://worldcup26.ir/get/teams'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502"
+  },
+  "payload": {
+    "games": [],
+    "groups": [],
+    "stadiums": [],
+    "teams": []
+  }
+}
