@@ -907,8 +907,8 @@
               "stage": "Round of 16",
               "home_team": "Paraguay",
               "away_team": "France",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 0,
+              "away_score": 1,
               "winner": null
             },
             {
@@ -916,8 +916,8 @@
               "stage": "Round of 16",
               "home_team": "Canada",
               "away_team": "Morocco",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 0,
+              "away_score": 3,
               "winner": null
             },
             {
@@ -982,8 +982,8 @@
             {
               "match_number": 97,
               "stage": "Quarter-final",
-              "home_team": "W89",
-              "away_team": "W90",
+              "home_team": "France",
+              "away_team": "Morocco",
               "home_score": null,
               "away_score": null,
               "winner": null
