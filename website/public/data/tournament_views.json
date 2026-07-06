@@ -925,8 +925,8 @@
               "stage": "Round of 16",
               "home_team": "Brazil",
               "away_team": "Norway",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 1,
+              "away_score": 2,
               "winner": null
             },
             {
@@ -934,8 +934,8 @@
               "stage": "Round of 16",
               "home_team": "Mexico",
               "away_team": "England",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 2,
+              "away_score": 3,
               "winner": null
             },
             {
@@ -1000,8 +1000,8 @@
             {
               "match_number": 99,
               "stage": "Quarter-final",
-              "home_team": "W91",
-              "away_team": "W92",
+              "home_team": "Norway",
+              "away_team": "England",
               "home_score": null,
               "away_score": null,
               "winner": null
