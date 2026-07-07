@@ -943,8 +943,8 @@
               "stage": "Round of 16",
               "home_team": "Portugal",
               "away_team": "Spain",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 0,
+              "away_score": 1,
               "winner": null
             },
             {
@@ -952,8 +952,8 @@
               "stage": "Round of 16",
               "home_team": "United States",
               "away_team": "Belgium",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 1,
+              "away_score": 4,
               "winner": null
             },
             {
@@ -991,8 +991,8 @@
             {
               "match_number": 98,
               "stage": "Quarter-final",
-              "home_team": "W93",
-              "away_team": "W94",
+              "home_team": "Spain",
+              "away_team": "Belgium",
               "home_score": null,
               "away_score": null,
               "winner": null
