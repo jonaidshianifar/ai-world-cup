@@ -961,8 +961,8 @@
               "stage": "Round of 16",
               "home_team": "Argentina",
               "away_team": "Egypt",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 3,
+              "away_score": 2,
               "winner": null
             },
             {
@@ -970,8 +970,8 @@
               "stage": "Round of 16",
               "home_team": "Switzerland",
               "away_team": "Colombia",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 0,
+              "away_score": 0,
               "winner": null
             }
           ]
@@ -1009,8 +1009,8 @@
             {
               "match_number": 100,
               "stage": "Quarter-final",
-              "home_team": "W95",
-              "away_team": "W96",
+              "home_team": "Argentina",
+              "away_team": "Switzerland",
               "home_score": null,
               "away_score": null,
               "winner": null
