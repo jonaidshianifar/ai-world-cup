@@ -1255,9 +1255,9 @@
     "away_team": "Morocco",
     "kickoff_time": null,
     "venue": "Gillette Stadium",
-    "status": "SCHEDULED",
-    "home_score": null,
-    "away_score": null,
+    "status": "FINISHED",
+    "home_score": 2,
+    "away_score": 0,
     "winner": null
   },
   {

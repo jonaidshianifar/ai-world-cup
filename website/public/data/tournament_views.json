@@ -984,8 +984,8 @@
               "stage": "Quarter-final",
               "home_team": "France",
               "away_team": "Morocco",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 2,
+              "away_score": 0,
               "winner": null
             },
             {
