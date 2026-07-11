@@ -993,8 +993,8 @@
               "stage": "Quarter-final",
               "home_team": "Spain",
               "away_team": "Belgium",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 2,
+              "away_score": 1,
               "winner": null
             },
             {
@@ -1023,8 +1023,8 @@
             {
               "match_number": 101,
               "stage": "Semi-final",
-              "home_team": "W97",
-              "away_team": "W98",
+              "home_team": "France",
+              "away_team": "Spain",
               "home_score": null,
               "away_score": null,
               "winner": null
