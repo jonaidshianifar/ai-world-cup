@@ -1002,8 +1002,8 @@
               "stage": "Quarter-final",
               "home_team": "Norway",
               "away_team": "England",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 1,
+              "away_score": 2,
               "winner": null
             },
             {
@@ -1011,8 +1011,8 @@
               "stage": "Quarter-final",
               "home_team": "Argentina",
               "away_team": "Switzerland",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 3,
+              "away_score": 1,
               "winner": null
             }
           ]
@@ -1032,8 +1032,8 @@
             {
               "match_number": 102,
               "stage": "Semi-final",
-              "home_team": "W99",
-              "away_team": "W100",
+              "home_team": "England",
+              "away_team": "Argentina",
               "home_score": null,
               "away_score": null,
               "winner": null
