@@ -1034,8 +1034,8 @@
               "stage": "Semi-final",
               "home_team": "England",
               "away_team": "Argentina",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 1,
+              "away_score": 2,
               "winner": null
             }
           ]
@@ -1047,7 +1047,7 @@
               "match_number": 103,
               "stage": "Third-place match",
               "home_team": "France",
-              "away_team": "L102",
+              "away_team": "England",
               "home_score": null,
               "away_score": null,
               "winner": null
@@ -1061,7 +1061,7 @@
               "match_number": 104,
               "stage": "Final",
               "home_team": "Spain",
-              "away_team": "W102",
+              "away_team": "Argentina",
               "home_score": null,
               "away_score": null,
               "winner": null
