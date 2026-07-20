@@ -1346,9 +1346,9 @@
     "away_team": "Argentina",
     "kickoff_time": null,
     "venue": "MetLife Stadium",
-    "status": "SCHEDULED",
-    "home_score": null,
-    "away_score": null,
+    "status": "FINISHED",
+    "home_score": 1,
+    "away_score": 0,
     "winner": null
   }
 ]

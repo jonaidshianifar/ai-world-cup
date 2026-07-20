@@ -1062,8 +1062,8 @@
               "stage": "Final",
               "home_team": "Spain",
               "away_team": "Argentina",
-              "home_score": null,
-              "away_score": null,
+              "home_score": 1,
+              "away_score": 0,
               "winner": null
             }
           ]
