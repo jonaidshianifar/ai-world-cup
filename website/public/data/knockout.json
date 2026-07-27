@@ -1,6 +1,3386 @@
 {
-  "predicted_knockout_brackets": [],
-  "final_ranking_predictions": [],
-  "champion_predictions": [],
-  "awards_predictions": []
+  "predicted_knockout_brackets": [
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 73,
+      "stage": "Round of 32",
+      "home_team": "South Korea",
+      "away_team": "Switzerland",
+      "predicted_winner": "Switzerland",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 74,
+      "stage": "Round of 32",
+      "home_team": "Germany",
+      "away_team": "Czech Republic",
+      "predicted_winner": "Germany",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 75,
+      "stage": "Round of 32",
+      "home_team": "Netherlands",
+      "away_team": "Morocco",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 76,
+      "stage": "Round of 32",
+      "home_team": "Brazil",
+      "away_team": "Japan",
+      "predicted_winner": "Brazil",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 77,
+      "stage": "Round of 32",
+      "home_team": "France",
+      "away_team": "Sweden",
+      "predicted_winner": "France",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 78,
+      "stage": "Round of 32",
+      "home_team": "Ecuador",
+      "away_team": "Norway",
+      "predicted_winner": "Norway",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 79,
+      "stage": "Round of 32",
+      "home_team": "Mexico",
+      "away_team": "Ivory Coast",
+      "predicted_winner": "Mexico",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 80,
+      "stage": "Round of 32",
+      "home_team": "England",
+      "away_team": "Norway",
+      "predicted_winner": "England",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 81,
+      "stage": "Round of 32",
+      "home_team": "United States",
+      "away_team": "Bosnia and Herzegovina",
+      "predicted_winner": "United States",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 82,
+      "stage": "Round of 32",
+      "home_team": "Belgium",
+      "away_team": "Algeria",
+      "predicted_winner": "Belgium",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 83,
+      "stage": "Round of 32",
+      "home_team": "Colombia",
+      "away_team": "Croatia",
+      "predicted_winner": "Croatia",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 84,
+      "stage": "Round of 32",
+      "home_team": "Spain",
+      "away_team": "Austria",
+      "predicted_winner": "Spain",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 85,
+      "stage": "Round of 32",
+      "home_team": "Canada",
+      "away_team": "Austria",
+      "predicted_winner": "Canada",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 86,
+      "stage": "Round of 32",
+      "home_team": "Argentina",
+      "away_team": "Uruguay",
+      "predicted_winner": "Argentina",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 87,
+      "stage": "Round of 32",
+      "home_team": "Portugal",
+      "away_team": "Senegal",
+      "predicted_winner": "Portugal",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 88,
+      "stage": "Round of 32",
+      "home_team": "Turkey",
+      "away_team": "Egypt",
+      "predicted_winner": "Turkey",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 89,
+      "stage": "Round of 16",
+      "home_team": "Germany",
+      "away_team": "France",
+      "predicted_winner": "France",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 90,
+      "stage": "Round of 16",
+      "home_team": "Switzerland",
+      "away_team": "Netherlands",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 91,
+      "stage": "Round of 16",
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "predicted_winner": "Brazil",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 92,
+      "stage": "Round of 16",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "predicted_winner": "England",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 93,
+      "stage": "Round of 16",
+      "home_team": "Croatia",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 94,
+      "stage": "Round of 16",
+      "home_team": "United States",
+      "away_team": "Belgium",
+      "predicted_winner": "United States",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 95,
+      "stage": "Round of 16",
+      "home_team": "Argentina",
+      "away_team": "Turkey",
+      "predicted_winner": "Argentina",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 96,
+      "stage": "Round of 16",
+      "home_team": "Canada",
+      "away_team": "Portugal",
+      "predicted_winner": "Portugal",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 97,
+      "stage": "Quarter-final",
+      "home_team": "France",
+      "away_team": "Netherlands",
+      "predicted_winner": "France",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 98,
+      "stage": "Quarter-final",
+      "home_team": "Spain",
+      "away_team": "United States",
+      "predicted_winner": "Spain",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 99,
+      "stage": "Quarter-final",
+      "home_team": "Brazil",
+      "away_team": "England",
+      "predicted_winner": "Brazil",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 100,
+      "stage": "Quarter-final",
+      "home_team": "Argentina",
+      "away_team": "Portugal",
+      "predicted_winner": "Argentina",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 101,
+      "stage": "Semi-final",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "France",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 102,
+      "stage": "Semi-final",
+      "home_team": "Brazil",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 103,
+      "stage": "Third-place match",
+      "home_team": "Spain",
+      "away_team": "Brazil",
+      "predicted_winner": "Brazil",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "match_number": 104,
+      "stage": "Final",
+      "home_team": "France",
+      "away_team": "Argentina",
+      "predicted_winner": "France",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 73,
+      "stage": "Round of 32",
+      "home_team": "Mexico",
+      "away_team": "Croatia",
+      "predicted_winner": "Croatia",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 74,
+      "stage": "Round of 32",
+      "home_team": "Germany",
+      "away_team": "Democratic Republic of the Congo",
+      "predicted_winner": "Germany",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 75,
+      "stage": "Round of 32",
+      "home_team": "Netherlands",
+      "away_team": "Egypt",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 76,
+      "stage": "Round of 32",
+      "home_team": "Brazil",
+      "away_team": "South Korea",
+      "predicted_winner": "Brazil",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 77,
+      "stage": "Round of 32",
+      "home_team": "France",
+      "away_team": "Austria",
+      "predicted_winner": "France",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 78,
+      "stage": "Round of 32",
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
+      "predicted_winner": "Colombia",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 79,
+      "stage": "Round of 32",
+      "home_team": "Spain",
+      "away_team": "Canada",
+      "predicted_winner": "Spain",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 80,
+      "stage": "Round of 32",
+      "home_team": "England",
+      "away_team": "Ivory Coast",
+      "predicted_winner": "England",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 81,
+      "stage": "Round of 32",
+      "home_team": "United States",
+      "away_team": "Senegal",
+      "predicted_winner": "United States",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 82,
+      "stage": "Round of 32",
+      "home_team": "Belgium",
+      "away_team": "Turkey",
+      "predicted_winner": "Belgium",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 83,
+      "stage": "Round of 32",
+      "home_team": "Portugal",
+      "away_team": "Japan",
+      "predicted_winner": "Portugal",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 84,
+      "stage": "Round of 32",
+      "home_team": "Argentina",
+      "away_team": "Bosnia and Herzegovina",
+      "predicted_winner": "Argentina",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 85,
+      "stage": "Round of 32",
+      "home_team": "Uruguay",
+      "away_team": "Scotland",
+      "predicted_winner": "Uruguay",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 86,
+      "stage": "Round of 32",
+      "home_team": "Ghana",
+      "away_team": "Sweden",
+      "predicted_winner": "Ghana",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 87,
+      "stage": "Round of 32",
+      "home_team": "Morocco",
+      "away_team": "Norway",
+      "predicted_winner": "Morocco",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 88,
+      "stage": "Round of 32",
+      "home_team": "Saudi Arabia",
+      "away_team": "Algeria",
+      "predicted_winner": "Algeria",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 89,
+      "stage": "Round of 16",
+      "home_team": "Croatia",
+      "away_team": "Germany",
+      "predicted_winner": "Germany",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 90,
+      "stage": "Round of 16",
+      "home_team": "Netherlands",
+      "away_team": "Brazil",
+      "predicted_winner": "Brazil",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 91,
+      "stage": "Round of 16",
+      "home_team": "France",
+      "away_team": "Colombia",
+      "predicted_winner": "France",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 92,
+      "stage": "Round of 16",
+      "home_team": "Spain",
+      "away_team": "England",
+      "predicted_winner": "Spain",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 93,
+      "stage": "Round of 16",
+      "home_team": "United States",
+      "away_team": "Belgium",
+      "predicted_winner": "Belgium",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 94,
+      "stage": "Round of 16",
+      "home_team": "Portugal",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 95,
+      "stage": "Round of 16",
+      "home_team": "Uruguay",
+      "away_team": "Ghana",
+      "predicted_winner": "Uruguay",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 96,
+      "stage": "Round of 16",
+      "home_team": "Morocco",
+      "away_team": "Algeria",
+      "predicted_winner": "Morocco",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 97,
+      "stage": "Quarter-final",
+      "home_team": "Germany",
+      "away_team": "Brazil",
+      "predicted_winner": "Brazil",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 98,
+      "stage": "Quarter-final",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "France",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 99,
+      "stage": "Quarter-final",
+      "home_team": "Belgium",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 100,
+      "stage": "Quarter-final",
+      "home_team": "Uruguay",
+      "away_team": "Morocco",
+      "predicted_winner": "Uruguay",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 101,
+      "stage": "Semi-final",
+      "home_team": "Brazil",
+      "away_team": "France",
+      "predicted_winner": "France",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 102,
+      "stage": "Semi-final",
+      "home_team": "Argentina",
+      "away_team": "Uruguay",
+      "predicted_winner": "Argentina",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 103,
+      "stage": "Third-place match",
+      "home_team": "Brazil",
+      "away_team": "Uruguay",
+      "predicted_winner": "Brazil",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "match_number": 104,
+      "stage": "Final",
+      "home_team": "France",
+      "away_team": "Argentina",
+      "predicted_winner": "France",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 73,
+      "stage": "Round of 32",
+      "home_team": "Czech Republic",
+      "away_team": "Canada",
+      "predicted_winner": "Canada",
+      "confidence": 0.54
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 74,
+      "stage": "Round of 32",
+      "home_team": "Germany",
+      "away_team": "South Korea",
+      "predicted_winner": "Germany",
+      "confidence": 0.72
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 75,
+      "stage": "Round of 32",
+      "home_team": "Netherlands",
+      "away_team": "Morocco",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.58
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 76,
+      "stage": "Round of 32",
+      "home_team": "Brazil",
+      "away_team": "Japan",
+      "predicted_winner": "Brazil",
+      "confidence": 0.76
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 77,
+      "stage": "Round of 32",
+      "home_team": "France",
+      "away_team": "Sweden",
+      "predicted_winner": "France",
+      "confidence": 0.72
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 78,
+      "stage": "Round of 32",
+      "home_team": "Ecuador",
+      "away_team": "Norway",
+      "predicted_winner": "Norway",
+      "confidence": 0.52
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 79,
+      "stage": "Round of 32",
+      "home_team": "Mexico",
+      "away_team": "Scotland",
+      "predicted_winner": "Mexico",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 80,
+      "stage": "Round of 32",
+      "home_team": "England",
+      "away_team": "Senegal",
+      "predicted_winner": "England",
+      "confidence": 0.59
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 81,
+      "stage": "Round of 32",
+      "home_team": "United States",
+      "away_team": "Iran",
+      "predicted_winner": "United States",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 82,
+      "stage": "Round of 32",
+      "home_team": "Belgium",
+      "away_team": "Bosnia and Herzegovina",
+      "predicted_winner": "Belgium",
+      "confidence": 0.69
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 83,
+      "stage": "Round of 32",
+      "home_team": "Colombia",
+      "away_team": "Croatia",
+      "predicted_winner": "Colombia",
+      "confidence": 0.51
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 84,
+      "stage": "Round of 32",
+      "home_team": "Spain",
+      "away_team": "Austria",
+      "predicted_winner": "Spain",
+      "confidence": 0.72
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 85,
+      "stage": "Round of 32",
+      "home_team": "Switzerland",
+      "away_team": "Algeria",
+      "predicted_winner": "Switzerland",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 86,
+      "stage": "Round of 32",
+      "home_team": "Argentina",
+      "away_team": "Uruguay",
+      "predicted_winner": "Argentina",
+      "confidence": 0.58
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 87,
+      "stage": "Round of 32",
+      "home_team": "Portugal",
+      "away_team": "Ivory Coast",
+      "predicted_winner": "Portugal",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 88,
+      "stage": "Round of 32",
+      "home_team": "Turkey",
+      "away_team": "Egypt",
+      "predicted_winner": "Turkey",
+      "confidence": 0.53
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 89,
+      "stage": "Round of 16",
+      "home_team": "Germany",
+      "away_team": "France",
+      "predicted_winner": "France",
+      "confidence": 0.52
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 90,
+      "stage": "Round of 16",
+      "home_team": "Canada",
+      "away_team": "Netherlands",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.58
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 91,
+      "stage": "Round of 16",
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "predicted_winner": "Brazil",
+      "confidence": 0.73
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 92,
+      "stage": "Round of 16",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "predicted_winner": "England",
+      "confidence": 0.57
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 93,
+      "stage": "Round of 16",
+      "home_team": "Colombia",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "confidence": 0.58
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 94,
+      "stage": "Round of 16",
+      "home_team": "United States",
+      "away_team": "Belgium",
+      "predicted_winner": "Belgium",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 95,
+      "stage": "Round of 16",
+      "home_team": "Argentina",
+      "away_team": "Portugal",
+      "predicted_winner": "Argentina",
+      "confidence": 0.54
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 96,
+      "stage": "Round of 16",
+      "home_team": "Switzerland",
+      "away_team": "Turkey",
+      "predicted_winner": "Switzerland",
+      "confidence": 0.52
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 97,
+      "stage": "Quarter-final",
+      "home_team": "France",
+      "away_team": "Netherlands",
+      "predicted_winner": "France",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 98,
+      "stage": "Quarter-final",
+      "home_team": "Brazil",
+      "away_team": "England",
+      "predicted_winner": "Brazil",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 99,
+      "stage": "Quarter-final",
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "predicted_winner": "Spain",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 100,
+      "stage": "Quarter-final",
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "predicted_winner": "Argentina",
+      "confidence": 0.63
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 101,
+      "stage": "Semi-final",
+      "home_team": "France",
+      "away_team": "Brazil",
+      "predicted_winner": "Brazil",
+      "confidence": 0.52
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 102,
+      "stage": "Semi-final",
+      "home_team": "Spain",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "confidence": 0.52
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 103,
+      "stage": "Third Place",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "France",
+      "confidence": 0.54
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "match_number": 104,
+      "stage": "Final",
+      "home_team": "Brazil",
+      "away_team": "Argentina",
+      "predicted_winner": "Brazil",
+      "confidence": 0.53
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 73,
+      "stage": "Round of 32",
+      "home_team": "2A",
+      "away_team": "2B",
+      "predicted_winner": "2B",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 74,
+      "stage": "Round of 32",
+      "home_team": "1E",
+      "away_team": "3A/B/C/D/F",
+      "predicted_winner": "1E",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 75,
+      "stage": "Round of 32",
+      "home_team": "1F",
+      "away_team": "2C",
+      "predicted_winner": "1F",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 76,
+      "stage": "Round of 32",
+      "home_team": "1C",
+      "away_team": "2F",
+      "predicted_winner": "1C",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 77,
+      "stage": "Round of 32",
+      "home_team": "1I",
+      "away_team": "3C/D/F/G/H",
+      "predicted_winner": "1I",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 78,
+      "stage": "Round of 32",
+      "home_team": "2E",
+      "away_team": "2I",
+      "predicted_winner": "2E",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 79,
+      "stage": "Round of 32",
+      "home_team": "1A",
+      "away_team": "3C/E/F/H/I",
+      "predicted_winner": "1A",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 80,
+      "stage": "Round of 32",
+      "home_team": "1L",
+      "away_team": "3E/H/I/J/K",
+      "predicted_winner": "1L",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 81,
+      "stage": "Round of 32",
+      "home_team": "1D",
+      "away_team": "3B/E/F/I/J",
+      "predicted_winner": "1D",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 82,
+      "stage": "Round of 32",
+      "home_team": "1G",
+      "away_team": "3A/E/H/I/J",
+      "predicted_winner": "1G",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 83,
+      "stage": "Round of 32",
+      "home_team": "2K",
+      "away_team": "2L",
+      "predicted_winner": "2L",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 84,
+      "stage": "Round of 32",
+      "home_team": "1H",
+      "away_team": "2J",
+      "predicted_winner": "1H",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 85,
+      "stage": "Round of 32",
+      "home_team": "1B",
+      "away_team": "3E/F/G/I/J",
+      "predicted_winner": "1B",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 86,
+      "stage": "Round of 32",
+      "home_team": "1J",
+      "away_team": "2H",
+      "predicted_winner": "2H",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 87,
+      "stage": "Round of 32",
+      "home_team": "1K",
+      "away_team": "3D/E/I/J/L",
+      "predicted_winner": "1K",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 88,
+      "stage": "Round of 32",
+      "home_team": "2D",
+      "away_team": "2G",
+      "predicted_winner": "2G",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 89,
+      "stage": "Round of 16",
+      "home_team": "W74",
+      "away_team": "W77",
+      "predicted_winner": "W77",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 90,
+      "stage": "Round of 16",
+      "home_team": "W73",
+      "away_team": "W75",
+      "predicted_winner": "W73",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 91,
+      "stage": "Round of 16",
+      "home_team": "W76",
+      "away_team": "W78",
+      "predicted_winner": "W76",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 92,
+      "stage": "Round of 16",
+      "home_team": "W79",
+      "away_team": "W80",
+      "predicted_winner": "W79",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 93,
+      "stage": "Round of 16",
+      "home_team": "W83",
+      "away_team": "W84",
+      "predicted_winner": "W84",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 94,
+      "stage": "Round of 16",
+      "home_team": "W81",
+      "away_team": "W82",
+      "predicted_winner": "W82",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 95,
+      "stage": "Round of 16",
+      "home_team": "W86",
+      "away_team": "W88",
+      "predicted_winner": "W86",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 96,
+      "stage": "Round of 16",
+      "home_team": "W85",
+      "away_team": "W87",
+      "predicted_winner": "W85",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 97,
+      "stage": "Quarter-final",
+      "home_team": "W89",
+      "away_team": "W90",
+      "predicted_winner": "W90",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 98,
+      "stage": "Quarter-final",
+      "home_team": "W93",
+      "away_team": "W94",
+      "predicted_winner": "W93",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 99,
+      "stage": "Quarter-final",
+      "home_team": "W91",
+      "away_team": "W92",
+      "predicted_winner": "W91",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 100,
+      "stage": "Quarter-final",
+      "home_team": "W95",
+      "away_team": "W96",
+      "predicted_winner": "W95",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 101,
+      "stage": "Semi-final",
+      "home_team": "W97",
+      "away_team": "W98",
+      "predicted_winner": "W98",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 102,
+      "stage": "Semi-final",
+      "home_team": "W99",
+      "away_team": "W100",
+      "predicted_winner": "W99",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 103,
+      "stage": "Third-place match",
+      "home_team": "L101",
+      "away_team": "L102",
+      "predicted_winner": "L101",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "match_number": 104,
+      "stage": "Final",
+      "home_team": "W101",
+      "away_team": "W102",
+      "predicted_winner": "W102",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 73,
+      "stage": "Round of 32",
+      "home_team": "South Korea",
+      "away_team": "Canada",
+      "predicted_winner": "Canada",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 74,
+      "stage": "Round of 32",
+      "home_team": "Germany",
+      "away_team": "Czech Republic",
+      "predicted_winner": "Germany",
+      "confidence": 0.72
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 75,
+      "stage": "Round of 32",
+      "home_team": "Netherlands",
+      "away_team": "Morocco",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 76,
+      "stage": "Round of 32",
+      "home_team": "Brazil",
+      "away_team": "Japan",
+      "predicted_winner": "Brazil",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 77,
+      "stage": "Round of 32",
+      "home_team": "France",
+      "away_team": "Sweden",
+      "predicted_winner": "France",
+      "confidence": 0.64
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 78,
+      "stage": "Round of 32",
+      "home_team": "Ecuador",
+      "away_team": "Senegal",
+      "predicted_winner": "Senegal",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 79,
+      "stage": "Round of 32",
+      "home_team": "Mexico",
+      "away_team": "Ivory Coast",
+      "predicted_winner": "Mexico",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 80,
+      "stage": "Round of 32",
+      "home_team": "England",
+      "away_team": "Algeria",
+      "predicted_winner": "England",
+      "confidence": 0.64
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 81,
+      "stage": "Round of 32",
+      "home_team": "United States",
+      "away_team": "Bosnia and Herzegovina",
+      "predicted_winner": "United States",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 82,
+      "stage": "Round of 32",
+      "home_team": "Belgium",
+      "away_team": "Norway",
+      "predicted_winner": "Belgium",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 83,
+      "stage": "Round of 32",
+      "home_team": "Colombia",
+      "away_team": "Croatia",
+      "predicted_winner": "Colombia",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 84,
+      "stage": "Round of 32",
+      "home_team": "Spain",
+      "away_team": "Austria",
+      "predicted_winner": "Spain",
+      "confidence": 0.64
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 85,
+      "stage": "Round of 32",
+      "home_team": "Switzerland",
+      "away_team": "Egypt",
+      "predicted_winner": "Switzerland",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 86,
+      "stage": "Round of 32",
+      "home_team": "Argentina",
+      "away_team": "Uruguay",
+      "predicted_winner": "Argentina",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 87,
+      "stage": "Round of 32",
+      "home_team": "Portugal",
+      "away_team": "Ghana",
+      "predicted_winner": "Portugal",
+      "confidence": 0.64
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 88,
+      "stage": "Round of 32",
+      "home_team": "Turkey",
+      "away_team": "Iran",
+      "predicted_winner": "Turkey",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 89,
+      "stage": "Round of 16",
+      "home_team": "Germany",
+      "away_team": "France",
+      "predicted_winner": "France",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 90,
+      "stage": "Round of 16",
+      "home_team": "Canada",
+      "away_team": "Netherlands",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.64
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 91,
+      "stage": "Round of 16",
+      "home_team": "Brazil",
+      "away_team": "Senegal",
+      "predicted_winner": "Brazil",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 92,
+      "stage": "Round of 16",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "predicted_winner": "England",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 93,
+      "stage": "Round of 16",
+      "home_team": "Colombia",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 94,
+      "stage": "Round of 16",
+      "home_team": "United States",
+      "away_team": "Belgium",
+      "predicted_winner": "Belgium",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 95,
+      "stage": "Round of 16",
+      "home_team": "Argentina",
+      "away_team": "Turkey",
+      "predicted_winner": "Argentina",
+      "confidence": 0.64
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 96,
+      "stage": "Round of 16",
+      "home_team": "Switzerland",
+      "away_team": "Portugal",
+      "predicted_winner": "Portugal",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 97,
+      "stage": "Quarter-final",
+      "home_team": "France",
+      "away_team": "Netherlands",
+      "predicted_winner": "France",
+      "confidence": 0.53
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 98,
+      "stage": "Quarter-final",
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "predicted_winner": "Spain",
+      "confidence": 0.53
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 99,
+      "stage": "Quarter-final",
+      "home_team": "Brazil",
+      "away_team": "England",
+      "predicted_winner": "Brazil",
+      "confidence": 0.53
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 100,
+      "stage": "Quarter-final",
+      "home_team": "Argentina",
+      "away_team": "Portugal",
+      "predicted_winner": "Argentina",
+      "confidence": 0.53
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 101,
+      "stage": "Semi-final",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "confidence": 0.53
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 102,
+      "stage": "Semi-final",
+      "home_team": "Brazil",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "confidence": 0.53
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 103,
+      "stage": "Third-place match",
+      "home_team": "France",
+      "away_team": "Brazil",
+      "predicted_winner": "France",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "match_number": 104,
+      "stage": "Final",
+      "home_team": "Spain",
+      "away_team": "Argentina",
+      "predicted_winner": "Spain",
+      "confidence": 0.53
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 73,
+      "stage": "Round of 32",
+      "home_team": "2A",
+      "away_team": "2B",
+      "predicted_winner": "2B",
+      "confidence": 0.51
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 74,
+      "stage": "Round of 32",
+      "home_team": "1E",
+      "away_team": "3A/B/C/D/F",
+      "predicted_winner": "1E",
+      "confidence": 0.59
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 75,
+      "stage": "Round of 32",
+      "home_team": "1F",
+      "away_team": "2C",
+      "predicted_winner": "1F",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 76,
+      "stage": "Round of 32",
+      "home_team": "1C",
+      "away_team": "2F",
+      "predicted_winner": "1C",
+      "confidence": 0.58
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 77,
+      "stage": "Round of 32",
+      "home_team": "1I",
+      "away_team": "3C/D/F/G/H",
+      "predicted_winner": "1I",
+      "confidence": 0.62
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 78,
+      "stage": "Round of 32",
+      "home_team": "2E",
+      "away_team": "2I",
+      "predicted_winner": "2I",
+      "confidence": 0.53
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 79,
+      "stage": "Round of 32",
+      "home_team": "1A",
+      "away_team": "3C/E/F/H/I",
+      "predicted_winner": "1A",
+      "confidence": 0.57
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 80,
+      "stage": "Round of 32",
+      "home_team": "1L",
+      "away_team": "3E/H/I/J/K",
+      "predicted_winner": "1L",
+      "confidence": 0.54
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 81,
+      "stage": "Round of 32",
+      "home_team": "1D",
+      "away_team": "3B/E/F/I/J",
+      "predicted_winner": "1D",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 82,
+      "stage": "Round of 32",
+      "home_team": "1G",
+      "away_team": "3A/E/H/I/J",
+      "predicted_winner": "3A/E/H/I/J",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 83,
+      "stage": "Round of 32",
+      "home_team": "2K",
+      "away_team": "2L",
+      "predicted_winner": "2L",
+      "confidence": 0.52
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 84,
+      "stage": "Round of 32",
+      "home_team": "1H",
+      "away_team": "2J",
+      "predicted_winner": "1H",
+      "confidence": 0.64
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 85,
+      "stage": "Round of 32",
+      "home_team": "1B",
+      "away_team": "3E/F/G/I/J",
+      "predicted_winner": "1B",
+      "confidence": 0.58
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 86,
+      "stage": "Round of 32",
+      "home_team": "1J",
+      "away_team": "2H",
+      "predicted_winner": "1J",
+      "confidence": 0.66
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 87,
+      "stage": "Round of 32",
+      "home_team": "1K",
+      "away_team": "3D/E/I/J/L",
+      "predicted_winner": "1K",
+      "confidence": 0.62
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 88,
+      "stage": "Round of 32",
+      "home_team": "2D",
+      "away_team": "2G",
+      "predicted_winner": "2G",
+      "confidence": 0.51
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 89,
+      "stage": "Round of 32",
+      "home_team": "W74",
+      "away_team": "W77",
+      "predicted_winner": "W74",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 90,
+      "stage": "Round of 32",
+      "home_team": "W73",
+      "away_team": "W75",
+      "predicted_winner": "W75",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 91,
+      "stage": "Round of 32",
+      "home_team": "W76",
+      "away_team": "W78",
+      "predicted_winner": "W76",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 92,
+      "stage": "Round of 32",
+      "home_team": "W79",
+      "away_team": "W80",
+      "predicted_winner": "W80",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 93,
+      "stage": "Round of 32",
+      "home_team": "W83",
+      "away_team": "W84",
+      "predicted_winner": "W83",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 94,
+      "stage": "Round of 32",
+      "home_team": "W81",
+      "away_team": "W82",
+      "predicted_winner": "W82",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 95,
+      "stage": "Round of 32",
+      "home_team": "W86",
+      "away_team": "W88",
+      "predicted_winner": "W86",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 96,
+      "stage": "Round of 32",
+      "home_team": "W85",
+      "away_team": "W87",
+      "predicted_winner": "W87",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 97,
+      "stage": "Round of 32",
+      "home_team": "W89",
+      "away_team": "W90",
+      "predicted_winner": "W89",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 98,
+      "stage": "Round of 32",
+      "home_team": "W93",
+      "away_team": "W94",
+      "predicted_winner": "W94",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 99,
+      "stage": "Round of 32",
+      "home_team": "W91",
+      "away_team": "W92",
+      "predicted_winner": "W91",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 100,
+      "stage": "Round of 32",
+      "home_team": "W95",
+      "away_team": "W96",
+      "predicted_winner": "W96",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 101,
+      "stage": "Round of 32",
+      "home_team": "W97",
+      "away_team": "W98",
+      "predicted_winner": "W97",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 102,
+      "stage": "Round of 32",
+      "home_team": "W99",
+      "away_team": "W100",
+      "predicted_winner": "W100",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 103,
+      "stage": "Round of 32",
+      "home_team": "L101",
+      "away_team": "L102",
+      "predicted_winner": "L102",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "match_number": 104,
+      "stage": "Round of 32",
+      "home_team": "W101",
+      "away_team": "W102",
+      "predicted_winner": "W101",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 73,
+      "stage": "Round of 32",
+      "home_team": "Mexico",
+      "away_team": "Canada",
+      "predicted_winner": "Mexico",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 74,
+      "stage": "Round of 32",
+      "home_team": "Germany",
+      "away_team": "Bosnia and Herzegovina",
+      "predicted_winner": "Germany",
+      "confidence": 0.9
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 75,
+      "stage": "Round of 32",
+      "home_team": "Netherlands",
+      "away_team": "Colombia",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.56
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 76,
+      "stage": "Round of 32",
+      "home_team": "Brazil",
+      "away_team": "Japan",
+      "predicted_winner": "Brazil",
+      "confidence": 0.86
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 77,
+      "stage": "Round of 32",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "confidence": 0.52
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 78,
+      "stage": "Round of 32",
+      "home_team": "Ecuador",
+      "away_team": "Egypt",
+      "predicted_winner": "Ecuador",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 79,
+      "stage": "Round of 32",
+      "home_team": "Mexico",
+      "away_team": "Morocco",
+      "predicted_winner": "Mexico",
+      "confidence": 0.49
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 80,
+      "stage": "Round of 32",
+      "home_team": "England",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "confidence": 0.53
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 81,
+      "stage": "Round of 32",
+      "home_team": "United States",
+      "away_team": "Switzerland",
+      "predicted_winner": "Switzerland",
+      "confidence": 0.51
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 82,
+      "stage": "Round of 32",
+      "home_team": "Belgium",
+      "away_team": "Turkey",
+      "predicted_winner": "Belgium",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 83,
+      "stage": "Round of 32",
+      "home_team": "Portugal",
+      "away_team": "Croatia",
+      "predicted_winner": "Portugal",
+      "confidence": 0.57
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 84,
+      "stage": "Round of 32",
+      "home_team": "Spain",
+      "away_team": "South Korea",
+      "predicted_winner": "Spain",
+      "confidence": 0.78
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 85,
+      "stage": "Round of 32",
+      "home_team": "Brazil",
+      "away_team": "Switzerland",
+      "predicted_winner": "Brazil",
+      "confidence": 0.76
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 86,
+      "stage": "Round of 32",
+      "home_team": "Germany",
+      "away_team": "United States",
+      "predicted_winner": "Germany",
+      "confidence": 0.62
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 87,
+      "stage": "Round of 32",
+      "home_team": "Portugal",
+      "away_team": "Belgium",
+      "predicted_winner": "Portugal",
+      "confidence": 0.54
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 88,
+      "stage": "Round of 32",
+      "home_team": "Argentina",
+      "away_team": "Ecuador",
+      "predicted_winner": "Argentina",
+      "confidence": 0.77
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 89,
+      "stage": "Round of 32",
+      "home_team": "W74",
+      "away_team": "W77",
+      "predicted_winner": "W74",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 90,
+      "stage": "Round of 32",
+      "home_team": "W73",
+      "away_team": "W75",
+      "predicted_winner": "W73",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 91,
+      "stage": "Round of 32",
+      "home_team": "W76",
+      "away_team": "W78",
+      "predicted_winner": "W76",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 92,
+      "stage": "Round of 32",
+      "home_team": "W79",
+      "away_team": "W80",
+      "predicted_winner": "W79",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 93,
+      "stage": "Round of 32",
+      "home_team": "W83",
+      "away_team": "W84",
+      "predicted_winner": "W83",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 94,
+      "stage": "Round of 32",
+      "home_team": "W81",
+      "away_team": "W82",
+      "predicted_winner": "W81",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 95,
+      "stage": "Round of 32",
+      "home_team": "W86",
+      "away_team": "W88",
+      "predicted_winner": "W86",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 96,
+      "stage": "Round of 32",
+      "home_team": "W85",
+      "away_team": "W87",
+      "predicted_winner": "W85",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 97,
+      "stage": "Round of 32",
+      "home_team": "W89",
+      "away_team": "W90",
+      "predicted_winner": "W89",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 98,
+      "stage": "Round of 32",
+      "home_team": "W93",
+      "away_team": "W94",
+      "predicted_winner": "W93",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 99,
+      "stage": "Round of 32",
+      "home_team": "W91",
+      "away_team": "W92",
+      "predicted_winner": "W91",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 100,
+      "stage": "Round of 32",
+      "home_team": "W95",
+      "away_team": "W96",
+      "predicted_winner": "W95",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 101,
+      "stage": "Round of 32",
+      "home_team": "W97",
+      "away_team": "W98",
+      "predicted_winner": "W97",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 102,
+      "stage": "Round of 32",
+      "home_team": "W99",
+      "away_team": "W100",
+      "predicted_winner": "W99",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 103,
+      "stage": "Round of 32",
+      "home_team": "L101",
+      "away_team": "L102",
+      "predicted_winner": "L101",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "match_number": 104,
+      "stage": "Round of 32",
+      "home_team": "W101",
+      "away_team": "W102",
+      "predicted_winner": "W101",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 73,
+      "stage": "Round of 32",
+      "home_team": "2A",
+      "away_team": "2B",
+      "predicted_winner": "Canada",
+      "confidence": 0.52
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 74,
+      "stage": "Round of 32",
+      "home_team": "1E",
+      "away_team": "3A/B/C/D/F",
+      "predicted_winner": "Germany",
+      "confidence": 0.78
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 75,
+      "stage": "Round of 32",
+      "home_team": "1F",
+      "away_team": "2C",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 76,
+      "stage": "Round of 32",
+      "home_team": "1C",
+      "away_team": "2F",
+      "predicted_winner": "Brazil",
+      "confidence": 0.78
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 77,
+      "stage": "Round of 32",
+      "home_team": "1I",
+      "away_team": "3C/D/F/G/H",
+      "predicted_winner": "France",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 78,
+      "stage": "Round of 32",
+      "home_team": "2E",
+      "away_team": "2I",
+      "predicted_winner": "Norway",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 79,
+      "stage": "Round of 32",
+      "home_team": "1A",
+      "away_team": "3C/E/F/H/I",
+      "predicted_winner": "Mexico",
+      "confidence": 0.68
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 80,
+      "stage": "Round of 32",
+      "home_team": "1L",
+      "away_team": "3E/H/I/J/K",
+      "predicted_winner": "England",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 81,
+      "stage": "Round of 32",
+      "home_team": "1D",
+      "away_team": "3B/E/F/I/J",
+      "predicted_winner": "United States",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 82,
+      "stage": "Round of 32",
+      "home_team": "1G",
+      "away_team": "3A/E/H/I/J",
+      "predicted_winner": "Belgium",
+      "confidence": 0.72
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 83,
+      "stage": "Round of 32",
+      "home_team": "2K",
+      "away_team": "2L",
+      "predicted_winner": "Croatia",
+      "confidence": 0.58
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 84,
+      "stage": "Round of 32",
+      "home_team": "1H",
+      "away_team": "2J",
+      "predicted_winner": "Spain",
+      "confidence": 0.78
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 85,
+      "stage": "Round of 32",
+      "home_team": "1B",
+      "away_team": "3E/F/G/I/J",
+      "predicted_winner": "Switzerland",
+      "confidence": 0.68
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 86,
+      "stage": "Round of 32",
+      "home_team": "1J",
+      "away_team": "2H",
+      "predicted_winner": "Argentina",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 87,
+      "stage": "Round of 32",
+      "home_team": "1K",
+      "away_team": "3D/E/I/J/L",
+      "predicted_winner": "Portugal",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 88,
+      "stage": "Round of 32",
+      "home_team": "2D",
+      "away_team": "2G",
+      "predicted_winner": "Iran",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 89,
+      "stage": "Round of 16",
+      "home_team": "W74",
+      "away_team": "W77",
+      "predicted_winner": "Germany",
+      "confidence": 0.68
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 90,
+      "stage": "Round of 16",
+      "home_team": "W73",
+      "away_team": "W75",
+      "predicted_winner": "Canada",
+      "confidence": 0.5
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 91,
+      "stage": "Round of 16",
+      "home_team": "W76",
+      "away_team": "W78",
+      "predicted_winner": "Brazil",
+      "confidence": 0.72
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 92,
+      "stage": "Round of 16",
+      "home_team": "W79",
+      "away_team": "W80",
+      "predicted_winner": "England",
+      "confidence": 0.58
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 93,
+      "stage": "Round of 16",
+      "home_team": "W83",
+      "away_team": "W84",
+      "predicted_winner": "Spain",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 94,
+      "stage": "Round of 16",
+      "home_team": "W81",
+      "away_team": "W82",
+      "predicted_winner": "United States",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 95,
+      "stage": "Round of 16",
+      "home_team": "W86",
+      "away_team": "W88",
+      "predicted_winner": "Argentina",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 96,
+      "stage": "Round of 16",
+      "home_team": "W85",
+      "away_team": "W87",
+      "predicted_winner": "Portugal",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 97,
+      "stage": "Quarter-final",
+      "home_team": "W89",
+      "away_team": "W90",
+      "predicted_winner": "Germany",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 98,
+      "stage": "Quarter-final",
+      "home_team": "W93",
+      "away_team": "W94",
+      "predicted_winner": "Spain",
+      "confidence": 0.62
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 99,
+      "stage": "Quarter-final",
+      "home_team": "W91",
+      "away_team": "W92",
+      "predicted_winner": "England",
+      "confidence": 0.52
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 100,
+      "stage": "Quarter-final",
+      "home_team": "W95",
+      "away_team": "W96",
+      "predicted_winner": "Argentina",
+      "confidence": 0.68
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 101,
+      "stage": "Semi-final",
+      "home_team": "W97",
+      "away_team": "W98",
+      "predicted_winner": "Spain",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 102,
+      "stage": "Semi-final",
+      "home_team": "W99",
+      "away_team": "W100",
+      "predicted_winner": "Argentina",
+      "confidence": 0.62
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 103,
+      "stage": "Third-place match",
+      "home_team": "L101",
+      "away_team": "L102",
+      "predicted_winner": "Germany",
+      "confidence": 0.52
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "match_number": 104,
+      "stage": "Final",
+      "home_team": "W101",
+      "away_team": "W102",
+      "predicted_winner": "Argentina",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 73,
+      "stage": "Round of 32",
+      "home_team": "Mexico",
+      "away_team": "Switzerland",
+      "predicted_winner": "Mexico",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 74,
+      "stage": "Round of 32",
+      "home_team": "Germany",
+      "away_team": "Ivory Coast",
+      "predicted_winner": "Germany",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 75,
+      "stage": "Round of 32",
+      "home_team": "Netherlands",
+      "away_team": "Turkey",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 76,
+      "stage": "Round of 32",
+      "home_team": "Brazil",
+      "away_team": "Sweden",
+      "predicted_winner": "Brazil",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 77,
+      "stage": "Round of 32",
+      "home_team": "France",
+      "away_team": "Saudi Arabia",
+      "predicted_winner": "France",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 78,
+      "stage": "Round of 32",
+      "home_team": "Norway",
+      "away_team": "Austria",
+      "predicted_winner": "Norway",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 79,
+      "stage": "Round of 32",
+      "home_team": "Canada",
+      "away_team": "Scotland",
+      "predicted_winner": "Canada",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 80,
+      "stage": "Round of 32",
+      "home_team": "England",
+      "away_team": "Ghana",
+      "predicted_winner": "England",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 81,
+      "stage": "Round of 32",
+      "home_team": "United States",
+      "away_team": "Ecuador",
+      "predicted_winner": "United States",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 82,
+      "stage": "Round of 32",
+      "home_team": "Belgium",
+      "away_team": "Algeria",
+      "predicted_winner": "Belgium",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 83,
+      "stage": "Round of 32",
+      "home_team": "Colombia",
+      "away_team": "Croatia",
+      "predicted_winner": "Colombia",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 84,
+      "stage": "Round of 32",
+      "home_team": "Spain",
+      "away_team": "Egypt",
+      "predicted_winner": "Spain",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 85,
+      "stage": "Round of 32",
+      "home_team": "South Korea",
+      "away_team": "Senegal",
+      "predicted_winner": "Senegal",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 86,
+      "stage": "Round of 32",
+      "home_team": "Argentina",
+      "away_team": "Uruguay",
+      "predicted_winner": "Argentina",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 87,
+      "stage": "Round of 32",
+      "home_team": "Portugal",
+      "away_team": "Japan",
+      "predicted_winner": "Portugal",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 88,
+      "stage": "Round of 32",
+      "home_team": "Morocco",
+      "away_team": "Iran",
+      "predicted_winner": "Morocco",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 89,
+      "stage": "Round of 16",
+      "home_team": "Germany",
+      "away_team": "Netherlands",
+      "predicted_winner": "Germany",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 90,
+      "stage": "Round of 16",
+      "home_team": "Mexico",
+      "away_team": "Brazil",
+      "predicted_winner": "Brazil",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 91,
+      "stage": "Round of 16",
+      "home_team": "France",
+      "away_team": "Norway",
+      "predicted_winner": "France",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 92,
+      "stage": "Round of 16",
+      "home_team": "Canada",
+      "away_team": "England",
+      "predicted_winner": "England",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 93,
+      "stage": "Round of 16",
+      "home_team": "United States",
+      "away_team": "Belgium",
+      "predicted_winner": "United States",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 94,
+      "stage": "Round of 16",
+      "home_team": "Colombia",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 95,
+      "stage": "Round of 16",
+      "home_team": "Senegal",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 96,
+      "stage": "Round of 16",
+      "home_team": "Portugal",
+      "away_team": "Morocco",
+      "predicted_winner": "Portugal",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 97,
+      "stage": "Quarter-final",
+      "home_team": "Germany",
+      "away_team": "Brazil",
+      "predicted_winner": "Brazil",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 98,
+      "stage": "Quarter-final",
+      "home_team": "France",
+      "away_team": "England",
+      "predicted_winner": "France",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 99,
+      "stage": "Quarter-final",
+      "home_team": "United States",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 100,
+      "stage": "Quarter-final",
+      "home_team": "Argentina",
+      "away_team": "Portugal",
+      "predicted_winner": "Argentina",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 101,
+      "stage": "Semi-final",
+      "home_team": "Brazil",
+      "away_team": "France",
+      "predicted_winner": "Brazil",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 102,
+      "stage": "Semi-final",
+      "home_team": "Spain",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 103,
+      "stage": "Third-place match",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "France",
+      "confidence": 0.6
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "match_number": 104,
+      "stage": "Final",
+      "home_team": "Brazil",
+      "away_team": "Argentina",
+      "predicted_winner": "Brazil",
+      "confidence": 0.55
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 73,
+      "stage": "Round of 32",
+      "home_team": "South Korea",
+      "away_team": "Canada",
+      "predicted_winner": "South Korea",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 74,
+      "stage": "Round of 32",
+      "home_team": "Germany",
+      "away_team": "Czech Republic",
+      "predicted_winner": "Germany",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 75,
+      "stage": "Round of 32",
+      "home_team": "Netherlands",
+      "away_team": "Morocco",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 76,
+      "stage": "Round of 32",
+      "home_team": "Brazil",
+      "away_team": "Sweden",
+      "predicted_winner": "Brazil",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 77,
+      "stage": "Round of 32",
+      "home_team": "France",
+      "away_team": "Egypt",
+      "predicted_winner": "France",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 78,
+      "stage": "Round of 32",
+      "home_team": "Ecuador",
+      "away_team": "Senegal",
+      "predicted_winner": "Senegal",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 79,
+      "stage": "Round of 32",
+      "home_team": "Mexico",
+      "away_team": "Austria",
+      "predicted_winner": "Mexico",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 80,
+      "stage": "Round of 32",
+      "home_team": "England",
+      "away_team": "Ghana",
+      "predicted_winner": "England",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 81,
+      "stage": "Round of 32",
+      "home_team": "United States",
+      "away_team": "Bosnia and Herzegovina",
+      "predicted_winner": "United States",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 82,
+      "stage": "Round of 32",
+      "home_team": "Belgium",
+      "away_team": "Japan",
+      "predicted_winner": "Belgium",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 83,
+      "stage": "Round of 32",
+      "home_team": "Colombia",
+      "away_team": "Croatia",
+      "predicted_winner": "Croatia",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 84,
+      "stage": "Round of 32",
+      "home_team": "Spain",
+      "away_team": "Algeria",
+      "predicted_winner": "Spain",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 85,
+      "stage": "Round of 32",
+      "home_team": "Switzerland",
+      "away_team": "Norway",
+      "predicted_winner": "Switzerland",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 86,
+      "stage": "Round of 32",
+      "home_team": "Argentina",
+      "away_team": "Uruguay",
+      "predicted_winner": "Argentina",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 87,
+      "stage": "Round of 32",
+      "home_team": "Portugal",
+      "away_team": "Australia",
+      "predicted_winner": "Portugal",
+      "confidence": 0.85
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 88,
+      "stage": "Round of 32",
+      "home_team": "Turkey",
+      "away_team": "Iran",
+      "predicted_winner": "Turkey",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 89,
+      "stage": "Round of 16",
+      "home_team": "Germany",
+      "away_team": "France",
+      "predicted_winner": "France",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 90,
+      "stage": "Round of 16",
+      "home_team": "South Korea",
+      "away_team": "Netherlands",
+      "predicted_winner": "Netherlands",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 91,
+      "stage": "Round of 16",
+      "home_team": "Brazil",
+      "away_team": "Senegal",
+      "predicted_winner": "Brazil",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 92,
+      "stage": "Round of 16",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "predicted_winner": "England",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 93,
+      "stage": "Round of 16",
+      "home_team": "Croatia",
+      "away_team": "Spain",
+      "predicted_winner": "Spain",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 94,
+      "stage": "Round of 16",
+      "home_team": "United States",
+      "away_team": "Belgium",
+      "predicted_winner": "Belgium",
+      "confidence": 0.75
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 95,
+      "stage": "Round of 16",
+      "home_team": "Argentina",
+      "away_team": "Turkey",
+      "predicted_winner": "Argentina",
+      "confidence": 0.8
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 96,
+      "stage": "Round of 16",
+      "home_team": "Switzerland",
+      "away_team": "Portugal",
+      "predicted_winner": "Portugal",
+      "confidence": 0.7
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 97,
+      "stage": "Quarter-final",
+      "home_team": "France",
+      "away_team": "Netherlands",
+      "predicted_winner": "France",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 98,
+      "stage": "Quarter-final",
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "predicted_winner": "Spain",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 99,
+      "stage": "Quarter-final",
+      "home_team": "Brazil",
+      "away_team": "England",
+      "predicted_winner": "Brazil",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 100,
+      "stage": "Quarter-final",
+      "home_team": "Argentina",
+      "away_team": "Portugal",
+      "predicted_winner": "Argentina",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 101,
+      "stage": "Semi-final",
+      "home_team": "France",
+      "away_team": "Spain",
+      "predicted_winner": "France",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 102,
+      "stage": "Semi-final",
+      "home_team": "Brazil",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 103,
+      "stage": "Third-place match",
+      "home_team": "Spain",
+      "away_team": "Brazil",
+      "predicted_winner": "Brazil",
+      "confidence": 0.65
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "match_number": 104,
+      "stage": "Final",
+      "home_team": "France",
+      "away_team": "Argentina",
+      "predicted_winner": "Argentina",
+      "confidence": 0.65
+    }
+  ],
+  "final_ranking_predictions": [
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "champion": "France",
+      "runner_up": "Argentina",
+      "third_place": "Brazil",
+      "fourth_place": "Spain"
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "champion": "France",
+      "runner_up": "Argentina",
+      "third_place": "Brazil",
+      "fourth_place": "Uruguay"
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "champion": "Brazil",
+      "runner_up": "Argentina",
+      "third_place": "France",
+      "fourth_place": "Spain"
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "champion": "France",
+      "runner_up": "Argentina",
+      "third_place": "Brazil",
+      "fourth_place": "England"
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "champion": "Spain",
+      "runner_up": "Argentina",
+      "third_place": "France",
+      "fourth_place": "Brazil"
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "champion": "Brazil",
+      "runner_up": "France",
+      "third_place": "Argentina",
+      "fourth_place": "Spain"
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "champion": "Brazil",
+      "runner_up": "Argentina",
+      "third_place": "France",
+      "fourth_place": "Spain"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "champion": "Argentina",
+      "runner_up": "Spain",
+      "third_place": "Germany",
+      "fourth_place": "England"
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "champion": "Brazil",
+      "runner_up": "Argentina",
+      "third_place": "France",
+      "fourth_place": "Spain"
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "champion": "Argentina",
+      "runner_up": "France",
+      "third_place": "Brazil",
+      "fourth_place": "Spain"
+    }
+  ],
+  "champion_predictions": [
+    {
+      "team": "Brazil",
+      "count": 4
+    },
+    {
+      "team": "France",
+      "count": 3
+    },
+    {
+      "team": "Argentina",
+      "count": 2
+    },
+    {
+      "team": "Spain",
+      "count": 1
+    }
+  ],
+  "awards_predictions": [
+    {
+      "model_name": "Gemini",
+      "provider": "Google",
+      "top_scorer": "Kylian Mbapp\u00e9",
+      "best_player": "Kylian Mbapp\u00e9",
+      "best_young_player": "Lamine Yamal",
+      "best_goalkeeper": "Mike Maignan"
+    },
+    {
+      "model_name": "Mistral Medium 3.5",
+      "provider": "Mistral AI",
+      "top_scorer": "Kylian Mbapp\u00e9",
+      "best_player": "Lionel Messi",
+      "best_young_player": "Jude Bellingham",
+      "best_goalkeeper": "Thibaut Courtois"
+    },
+    {
+      "model_name": "GPT-5.5",
+      "provider": "OpenAI",
+      "top_scorer": "Brazil player unavailable",
+      "best_player": "Brazil player unavailable",
+      "best_young_player": "Information unavailable",
+      "best_goalkeeper": "Brazil goalkeeper unavailable"
+    },
+    {
+      "model_name": "Grok",
+      "provider": "xAI",
+      "top_scorer": "Kylian Mbapp\u00e9",
+      "best_player": "Kylian Mbapp\u00e9",
+      "best_young_player": "Jude Bellingham",
+      "best_goalkeeper": "Alisson"
+    },
+    {
+      "model_name": "GPT-5.5 Thinking",
+      "provider": "OpenAI",
+      "top_scorer": "Kylian Mbapp\u00e9",
+      "best_player": "Pedri",
+      "best_young_player": "Lamine Yamal",
+      "best_goalkeeper": "Unai Sim\u00f3n"
+    },
+    {
+      "model_name": "Perplexity Pro",
+      "provider": "Perplexity",
+      "top_scorer": "Brazil",
+      "best_player": "France",
+      "best_young_player": "Spain",
+      "best_goalkeeper": "Argentina"
+    },
+    {
+      "model_name": "Perplexity",
+      "provider": "Perplexity",
+      "top_scorer": "Kylian Mbapp\u00e9",
+      "best_player": "Lionel Messi",
+      "best_young_player": "Jude Bellingham",
+      "best_goalkeeper": "Alisson Becker"
+    },
+    {
+      "model_name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "top_scorer": "Erling Haaland (Norway)",
+      "best_player": "Lionel Messi (Argentina)",
+      "best_young_player": "Lamine Yamal (Spain)",
+      "best_goalkeeper": "Emiliano Martinez (Argentina)"
+    },
+    {
+      "model_name": "DeepSeek",
+      "provider": "DeepSeek",
+      "top_scorer": "Vinicius Jr.",
+      "best_player": "Lionel Messi",
+      "best_young_player": "Jude Bellingham",
+      "best_goalkeeper": "Alisson Becker"
+    },
+    {
+      "model_name": "Qwen 3 7",
+      "provider": "Qwen",
+      "top_scorer": "Kylian Mbapp\u00e9",
+      "best_player": "Lionel Messi",
+      "best_young_player": "Jude Bellingham",
+      "best_goalkeeper": "Emiliano Mart\u00ednez"
+    }
+  ]
 }
