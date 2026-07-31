@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "id": 8,
+    "model_display_name": "Claude Sonnet 4.6",
+    "provider": "Anthropic",
+    "access_mode": "manual",
+    "web_search_enabled": null,
+    "submitted_at": "2026-06-11T10:51:13.640450",
+    "notes": null
+  },
+  {
+    "id": 9,
+    "model_display_name": "DeepSeek",
+    "provider": "DeepSeek",
+    "access_mode": "manual",
+    "web_search_enabled": null,
+    "submitted_at": "2026-06-11T10:51:13.724404",
+    "notes": null
+  },
+  {
+    "id": 1,
+    "model_display_name": "Gemini",
+    "provider": "Google",
+    "access_mode": "manual",
+    "web_search_enabled": null,
+    "submitted_at": "2026-06-11T10:51:13.201828",
+    "notes": null
+  },
+  {
+    "id": 2,
+    "model_display_name": "Mistral Medium 3.5",
+    "provider": "Mistral AI",
+    "access_mode": "manual",
+    "web_search_enabled": null,
+    "submitted_at": "2026-06-11T10:51:13.250384",
+    "notes": null
+  },
+  {
+    "id": 3,
+    "model_display_name": "GPT-5.5",
+    "provider": "OpenAI",
+    "access_mode": "manual",
+    "web_search_enabled": null,
+    "submitted_at": "2026-06-11T10:51:13.319742",
+    "notes": null
+  },
+  {
+    "id": 5,
+    "model_display_name": "GPT-5.5 Thinking",
+    "provider": "OpenAI",
+    "access_mode": "manual",
+    "web_search_enabled": null,
+    "submitted_at": "2026-06-11T10:51:13.428135",
+    "notes": null
+  },
+  {
+    "id": 7,
+    "model_display_name": "Perplexity",
+    "provider": "Perplexity",
+    "access_mode": "manual",
+    "web_search_enabled": null,
+    "submitted_at": "2026-06-11T10:51:13.552205",
+    "notes": null
+  },
+  {
+    "id": 6,
+    "model_display_name": "Perplexity Pro",
+    "provider": "Perplexity",
+    "access_mode": "manual",
+    "web_search_enabled": null,
+    "submitted_at": "2026-06-11T10:51:13.488466",
+    "notes": null
+  },
+  {
+    "id": 10,
+    "model_display_name": "Qwen 3 7",
+    "provider": "Qwen",
+    "access_mode": "manual",
+    "web_search_enabled": null,
+    "submitted_at": "2026-06-11T10:51:13.798336",
+    "notes": null
+  },
+  {
+    "id": 4,
+    "model_display_name": "Grok",
+    "provider": "xAI",
+    "access_mode": "manual",
+    "web_search_enabled": null,
+    "submitted_at": "2026-06-11T10:51:13.374676",
+    "notes": null
+  }
+]

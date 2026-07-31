@@ -5,6 +5,7 @@ import json
 from sqlmodel import Session, select
 
 from ai_world_cup.data.normalize import normalize_openfootball, normalize_worldcup26, parse_datetime
+from ai_world_cup.data.standings import recalculate_group_standings
 from ai_world_cup.data.validation import NormalizedMatch, NormalizedStadium, NormalizedTeam
 from ai_world_cup.schemas import DataSnapshot, Match, Stadium, Team
 
@@ -128,4 +129,5 @@ def ingest_source_payload(
         upsert_stadium(session, stadium)
     for match in matches:
         upsert_match(session, match, snapshot)
+    recalculate_group_standings(session)
     return {"teams": len(teams), "stadiums": len(stadiums), "matches": len(matches)}
