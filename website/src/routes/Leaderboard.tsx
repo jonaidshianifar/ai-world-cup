@@ -22,9 +22,118 @@ type QualificationRow = {
   totalPhasePoints: number;
 };
 
+type KnockoutRoundScore = {
+  stage: string;
+  stagePoints: number;
+  correctTeams: number;
+  teamPoints: number;
+  correctWinners: number;
+  winnerPoints: number;
+  totalPoints: number;
+};
+
+type KnockoutScoreRow = {
+  modelName: string;
+  provider: string;
+  rounds: KnockoutRoundScore[];
+  totalTeamPoints: number;
+  totalWinnerPoints: number;
+  totalKnockoutPoints: number;
+};
+
+const knockoutStagePoints: Record<string, number> = {
+  'Round of 32': 2,
+  'Round of 16': 4,
+  'Quarter-final': 6,
+  'Quarter-finals': 6,
+  Quarterfinals: 6,
+  'Semi-final': 8,
+  'Semi-finals': 8,
+  Semifinals: 8,
+  Final: 12
+};
+
 function teamsInRound(view: TournamentView, stage: string): Set<string> {
   const round = view.knockout_rounds.find((item) => item.stage === stage);
   return new Set(round?.matches.flatMap((match) => [match.home_team, match.away_team]) ?? []);
+}
+
+function stagePoints(stage: string): number {
+  return knockoutStagePoints[stage] ?? 0;
+}
+
+function matchWinner(match: TournamentView['knockout_rounds'][number]['matches'][number]): string | null {
+  if (match.winner) return match.winner;
+  if (match.home_score === null || match.away_score === null || match.home_score === match.away_score) {
+    return null;
+  }
+  return match.home_score > match.away_score ? match.home_team : match.away_team;
+}
+
+function knockoutScores(views: TournamentView[]): KnockoutScoreRow[] {
+  const actual = views.find((view) => view.source.kind === 'actual');
+  if (!actual) return [];
+
+  const actualMatches = new Map(
+    actual.knockout_rounds.flatMap((round) =>
+      round.matches
+        .filter((match) => match.match_number !== null)
+        .map((match) => [match.match_number, match] as const)
+    )
+  );
+
+  return views
+    .filter((view) => view.source.kind === 'model')
+    .map((view) => {
+      const rounds = view.knockout_rounds
+        .map((round) => {
+          const pointsPerHit = stagePoints(round.stage);
+          let correctTeams = 0;
+          let correctWinners = 0;
+
+          round.matches.forEach((match) => {
+            if (match.match_number === null) return;
+            const actualMatch = actualMatches.get(match.match_number);
+            if (!actualMatch) return;
+            const actualTeams = new Set([actualMatch.home_team, actualMatch.away_team]);
+            const predictedTeams = new Set([match.home_team, match.away_team]);
+            predictedTeams.forEach((team) => {
+              if (actualTeams.has(team)) correctTeams += 1;
+            });
+            const actualWinner = matchWinner(actualMatch);
+            if (actualWinner && matchWinner(match) === actualWinner) {
+              correctWinners += 1;
+            }
+          });
+
+          const teamPoints = correctTeams * pointsPerHit;
+          const winnerPoints = correctWinners * pointsPerHit;
+          return {
+            stage: round.stage,
+            stagePoints: pointsPerHit,
+            correctTeams,
+            teamPoints,
+            correctWinners,
+            winnerPoints,
+            totalPoints: teamPoints + winnerPoints
+          };
+        })
+        .filter((round) => round.stagePoints > 0);
+
+      return {
+        modelName: view.source.label,
+        provider: view.source.provider,
+        rounds,
+        totalTeamPoints: rounds.reduce((total, round) => total + round.teamPoints, 0),
+        totalWinnerPoints: rounds.reduce((total, round) => total + round.winnerPoints, 0),
+        totalKnockoutPoints: rounds.reduce((total, round) => total + round.totalPoints, 0)
+      };
+    })
+    .sort((left, right) =>
+      right.totalKnockoutPoints - left.totalKnockoutPoints ||
+      right.totalWinnerPoints - left.totalWinnerPoints ||
+      left.modelName.localeCompare(right.modelName)
+    );
 }
 
 function groupTablesByName(view: TournamentView): Map<string, TournamentGroupTable> {
@@ -145,6 +254,19 @@ export function Leaderboard() {
       ),
     [provider, query, tournamentViews]
   );
+  const knockoutSummary = useMemo(
+    () =>
+      knockoutScores(tournamentViews).filter((row) =>
+        (!provider || row.provider === provider) &&
+        (!query || row.modelName.toLowerCase().includes(query.toLowerCase()))
+      ),
+    [provider, query, tournamentViews]
+  );
+  const knockoutStages = useMemo(
+    () =>
+      Array.from(new Set(knockoutSummary.flatMap((row) => row.rounds.map((round) => round.stage)))),
+    [knockoutSummary]
+  );
 
   return (
     <div className="space-y-6">
@@ -205,6 +327,64 @@ export function Leaderboard() {
                     <td className="px-4 py-3 font-semibold">{row.totalPhasePoints}</td>
                   </tr>
                 ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      ) : null}
+      {knockoutSummary.length ? (
+        <section className="rounded-lg border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-950">
+          <div className="border-b border-slate-100 p-4 dark:border-slate-800">
+            <h2 className="text-xl font-semibold">Knockout round scoring</h2>
+            <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
+              Each round awards its stage value for every correct team in the fixture and again for the correct match winner.
+            </p>
+          </div>
+          <div className="table-scroll">
+            <table className="min-w-full text-left text-sm">
+              <thead className="bg-slate-50 text-slate-600 dark:bg-slate-900 dark:text-slate-300">
+                <tr>
+                  <th className="px-4 py-3 font-semibold">Model</th>
+                  {knockoutStages.map((stage) => (
+                    <th key={stage} className="px-4 py-3 font-semibold">{stage}</th>
+                  ))}
+                  <th className="px-4 py-3 font-semibold">Team pts</th>
+                  <th className="px-4 py-3 font-semibold">Winner pts</th>
+                  <th className="px-4 py-3 font-semibold">Knockout total</th>
+                </tr>
+              </thead>
+              <tbody>
+                {knockoutSummary.map((row) => {
+                  const roundsByStage = new Map(row.rounds.map((round) => [round.stage, round]));
+                  return (
+                    <tr key={row.modelName} className="border-t border-slate-100 dark:border-slate-800">
+                      <td className="px-4 py-3">
+                        <div className="font-semibold">{row.modelName}</div>
+                        <div className="text-xs text-slate-500 dark:text-slate-400">{row.provider}</div>
+                      </td>
+                      {knockoutStages.map((stage) => {
+                        const round = roundsByStage.get(stage);
+                        return (
+                          <td key={stage} className="px-4 py-3">
+                            {round ? (
+                              <div className="space-y-1">
+                                <div className="font-semibold">{round.totalPoints}</div>
+                                <div className="text-xs text-slate-500 dark:text-slate-400">
+                                  {round.correctTeams} teams, {round.correctWinners} winners
+                                </div>
+                              </div>
+                            ) : (
+                              <span className="text-slate-400">-</span>
+                            )}
+                          </td>
+                        );
+                      })}
+                      <td className="px-4 py-3">{row.totalTeamPoints}</td>
+                      <td className="px-4 py-3">{row.totalWinnerPoints}</td>
+                      <td className="px-4 py-3 font-semibold">{row.totalKnockoutPoints}</td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>
