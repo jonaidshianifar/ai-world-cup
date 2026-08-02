@@ -1,0 +1,14 @@
+{
+  "errors": {
+    "games": "worldcup26 request failed for https://worldcup26.ir/get/games: Client error '404 Not Found' for url 'https://worldcup26.ir/get/games'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "groups": "worldcup26 request failed for https://worldcup26.ir/get/groups: Client error '404 Not Found' for url 'https://worldcup26.ir/get/groups'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "stadiums": "worldcup26 request failed for https://worldcup26.ir/get/stadiums: Client error '404 Not Found' for url 'https://worldcup26.ir/get/stadiums'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+    "teams": "worldcup26 request failed for https://worldcup26.ir/get/teams: Client error '404 Not Found' for url 'https://worldcup26.ir/get/teams'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  },
+  "payload": {
+    "games": [],
+    "groups": [],
+    "stadiums": [],
+    "teams": []
+  }
+}
