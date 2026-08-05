@@ -14,6 +14,16 @@
 [![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-646CFF)](website/)
 
 ---
+## Paper
+
+The design, evaluation protocol, and final results of this project are described in:
+
+**AI World Cup 2026: Benchmarking Large Language Models for End-to-End Football Tournament Prediction**  
+Jonaid Shianifar and Iias Faiud  
+arXiv preprint, 2026.
+
+- [Read on arXiv](https://arxiv.org/abs/2608.03416)
+---
 
 ## Live Project
 
@@ -648,3 +658,18 @@ This project's source code is licensed under the [MIT License](LICENSE).
 Data, fixtures, team names, logos, competition information, and other football-related content may come from third-party sources and may be subject to their own licenses, terms of use, or attribution requirements.
 
 AI World Cup is an independent project and is not affiliated with FIFA.
+
+---
+
+## Citation
+
+If you use this benchmark, data, code, or results, please cite:
+
+```bibtex
+@article{shianifar2026aiworldcup,
+  title   = {AI World Cup 2026: Benchmarking Large Language Models for End-to-End Football Tournament Prediction},
+  author  = {Shianifar, Jonaid and Faiud, Iias},
+  journal = {arXiv preprint arXiv:2608.12345},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2608.03416}
+}
